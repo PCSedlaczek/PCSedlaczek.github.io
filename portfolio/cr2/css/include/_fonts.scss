@@ -1,0 +1,48 @@
+// fonts
+@import url('../webfonts/fontawesome.css');
+@import url('../webfonts/brands.css');
+@import url('../webfonts/solid.css');
+
+$gfont: 'https://fonts.googleapis.com/css2?display=swap&family=';
+
+@import url($gfont + 'Great+Vibes');
+@import url($gfont + 'Simonetta');
+@import url($gfont + 'Metal');
+
+body {
+  font-family: "Metal";
+  font-size: 1.1rem;
+}
+header, footer, h1, h2, h3, h4, .overlay {
+  font-family: "Simonetta";
+}
+.logo {
+  font-family: "Great Vibes";
+}
+
+// font-sizes
+.logo {
+  font-size: 1.75rem;
+}
+h1 {
+  font-size: 2rem;
+}
+.recipe li {
+  font-size: 1.1em;
+  line-height: 1.25;
+}
+header .navbar, footer {
+  font-size: 1rem;
+}
+.text p {
+  line-height: 1.25;
+}
+
+
+// text styles
+a {
+  text-decoration: none;
+}
+.logo, .featured, .category, input {
+  font-weight: bold;
+}

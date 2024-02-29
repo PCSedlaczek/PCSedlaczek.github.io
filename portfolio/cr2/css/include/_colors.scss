@@ -1,0 +1,29 @@
+// colors
+
+footer, .overlay {
+  background-color: black;
+}
+header a {
+  color: black;
+}
+footer, footer a, .copyright, .overlay {
+  color: white}
+
+
+// borders
+input {
+  border: 0;
+}
+.card {
+  border: 1px solid;
+}
+.card  {
+  border-color: lightgray;
+}
+header .navbar {
+  border: 0;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: lightgray
+}

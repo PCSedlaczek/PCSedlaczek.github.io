@@ -1,0 +1,37 @@
+// FontAwesome
+@import url('../fonts/fontawesome.css');
+@import url('../fonts/regular.css');
+@import url('../fonts/solid.css');
+
+// Navbar offset
+body {
+  padding-top: 60px;
+}
+
+// Hero section
+.hero-image {
+  background-image: url("../img/rachel-coyne-U7HLzMO4SIY-unsplash.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// FontAwesome icons
+.hero-image .fas {
+  color:green;
+}
+// Main Content
+.max-w {
+  max-width: 1100px;
+}
+// Event cards
+.event img {
+  height: 35vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+// Contact section image
+.side {
+  height: 75%;
+}

@@ -1,0 +1,48 @@
+
+// spacing
+body, header, nav, main, footer, div, ol, ul, li, p, h1, h2, h3, h4, img, form, input {
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  gap: 3vh;
+}
+.navbar, .logo, .fa-sm {
+  padding: 5px;
+}
+.logo, header form, .overlay, .overlay p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer, header .navbar, .source, h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main, h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h3, h4, .social {
+  padding-bottom: 5px;
+}
+.text p {
+  padding-bottom: 10px;
+}
+h1, .title {
+  padding-bottom: 15px;
+}
+h3, h4 {
+  padding-top: 15px;
+}
+.recipe ul li {
+  margin-left: 30px;
+  padding: 0;
+}
+.recipe ol li {
+  margin-left: 20px;
+  padding-left: 7px;
+}
+.pic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

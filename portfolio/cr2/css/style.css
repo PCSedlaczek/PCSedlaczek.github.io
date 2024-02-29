@@ -1,0 +1,300 @@
+@import url("../webfonts/fontawesome.css");
+@import url("../webfonts/brands.css");
+@import url("../webfonts/solid.css");
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Simonetta");
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Metal");
+.navbar ul {
+  list-style-type: none;
+}
+
+.recipe ul {
+  list-style-type: circle;
+}
+
+.card, .pic {
+  position: relative;
+}
+
+.card img, .pic img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  opacity: 60%;
+}
+
+body {
+  font-family: "Metal";
+  font-size: 1.1rem;
+}
+
+header, footer, h1, h2, h3, h4, .overlay {
+  font-family: "Simonetta";
+}
+
+.logo {
+  font-family: "Great Vibes";
+}
+
+.logo {
+  font-size: 1.75rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.recipe li {
+  font-size: 1.1em;
+  line-height: 1.25;
+}
+
+header .navbar, footer {
+  font-size: 1rem;
+}
+
+.text p {
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo, .featured, .category, input {
+  font-weight: bold;
+}
+
+footer, .overlay {
+  background-color: black;
+}
+
+header a {
+  color: black;
+}
+
+footer, footer a, .copyright, .overlay {
+  color: white;
+}
+
+input {
+  border: 0;
+}
+
+.card {
+  border: 1px solid;
+}
+
+.card {
+  border-color: lightgray;
+}
+
+header .navbar {
+  border: 0;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+body, header, nav, main, footer, div, ol, ul, li, p, h1, h2, h3, h4, img, form, input {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  gap: 3vh;
+}
+
+.navbar, .logo, .fa-sm {
+  padding: 5px;
+}
+
+.logo, header form, .overlay, .overlay p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer, header .navbar, .source, h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main, h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3, h4, .social {
+  padding-bottom: 5px;
+}
+
+.text p {
+  padding-bottom: 10px;
+}
+
+h1, .title {
+  padding-bottom: 15px;
+}
+
+h3, h4 {
+  padding-top: 15px;
+}
+
+.recipe ul li {
+  margin-left: 30px;
+  padding: 0;
+}
+
+.recipe ol li {
+  margin-left: 20px;
+  padding-left: 7px;
+}
+
+.pic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.topbar, .navbar ul, .gallery, .overlay {
+  width: 100%;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.recipe, .text {
+  width: 90%;
+  max-width: 640px;
+}
+
+.card {
+  height: 200px;
+}
+
+.pic {
+  height: 50vw;
+  max-height: 360px;
+}
+
+.card img, .pic img, .text img {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  width: 80px;
+  height: 30px;
+}
+
+.column {
+  width: 45%;
+  min-width: 290px;
+}
+
+main {
+  min-height: 71vh;
+}
+
+.topbar, .navbar, .navbar ul, .gallery, .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery, header .navbar ul {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.topbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar ul, footer {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar ul, .flex {
+  gap: 2.25vw;
+}
+
+.gallery, footer .navbar ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body, footer, .navbar, main, form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+input, footer, .copyright, .social, footer p, h1, h2, .source, .overlay {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  header .navbar {
+    font-size: 1rem;
+  }
+  .flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card, .pic {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .navbar {
+    font-size: 1.05rem;
+  }
+  .card, .pic {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .navbar {
+    font-size: 1.2rem;
+  }
+  .card, .pic {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header .navbar {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

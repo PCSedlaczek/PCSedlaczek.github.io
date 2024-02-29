@@ -1,0 +1,32 @@
+// Flexbox containers
+.topbar, .navbar, .navbar ul, .gallery, .flex {
+  display: flex;
+}
+.gallery, header .navbar ul {
+  flex-wrap: wrap;
+}
+.topbar {
+  justify-content: space-between;
+}
+.navbar ul, footer {
+  justify-content: space-evenly;
+}
+
+// Flex items
+.navbar ul, .flex {
+  gap: 2.25vw;
+}
+
+// Center
+.gallery, footer .navbar ul {
+  justify-content: center;
+}
+body, footer, .navbar, main, form {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+input, footer, .copyright, .social, footer p, h1, h2, .source, .overlay {
+  text-align: center;
+}

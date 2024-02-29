@@ -1,0 +1,31 @@
+// List styles
+.navbar ul {
+  list-style-type: none;
+}
+.recipe ul {
+  list-style-type: circle;
+}
+
+// Recipe cards
+.card, .pic {
+  position: relative;
+}
+.card img, .pic img {
+  object-fit: cover;
+  object-position: center;
+}
+
+// Text overlays
+.overlay {
+  position: absolute;
+  bottom: 0;
+  opacity: 60%;
+}
+
+// partials
+@import 'include/fonts';
+@import 'include/colors';
+@import 'include/space';
+@import 'include/size';
+@import 'include/flex';
+@import 'include/screen';
