@@ -308,15 +308,22 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
+.icon-github {
+	color: #fff;
+	padding: 0px 3px; 
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-social li a {
     padding: 10px 8px;
   }
 }
-.fh5co-social li a:hover {
-  color: #43A9F3;
+.fh5co-social li a:hover, .github:hover .icon-github, a.github:active .icon-github, a.github:focus .icon-github, a.text-light:hover {
+  color: #43A9F3 !important;
+	text-decoration: none;
 }
-.fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
+.fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus, a.github:hover, a.github:active, a.github:focus {
   outline: none;
   text-decoration: none;
 }
